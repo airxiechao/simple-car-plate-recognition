@@ -9,7 +9,7 @@
 
 # 训练Mask-RCNN定位车牌
 
-这篇文章https://engineering.matterport.com/splash-of-color-instance-segmentation-with-mask-r-cnn-and-tensorflow-7c761e238b46 讲了如何用Mask-RCNN识别图片中的气球，仿照其方法。下载预先用COCO数据集训练好的模型mask_rcnn_coco.h5，按照文章的方法编写carplate.py用于载入车辆图片数据和训练，用inspect_data.ipynb浏览标注数据。执行python carplate.py  train --dataset=../dataset/carplate --weights=coco 进行训练，训练完后，在logs文件夹中找到最后一轮的h5模型文件，比如mask_rcnn_carplate_0030.h5，复制出来。用inspect_model.ipynd查看模型训练的效果。这部分代码在https://github.com/airxiechao/simple-car-plate-recognition/tree/master/Mask_RCNN 下载。
+这篇文章https://engineering.matterport.com/splash-of-color-instance-segmentation-with-mask-r-cnn-and-tensorflow-7c761e238b46 讲了如何用Mask-RCNN识别图片中的气球，仿照其方法。在https://github.com/matterport/Mask_RCNN/releases 下载预先用COCO数据集训练好的模型mask_rcnn_coco.h5，按照文章的方法编写carplate.py用于载入车辆图片数据和训练，用inspect_data.ipynb浏览标注数据。执行python carplate.py  train --dataset=../dataset/carplate --weights=coco 进行训练，训练完后，在logs文件夹中找到最后一轮的h5模型文件，比如mask_rcnn_carplate_0030.h5，复制出来。用inspect_model.ipynd查看模型训练的效果。这部分代码在https://github.com/airxiechao/simple-car-plate-recognition/tree/master/Mask_RCNN 下载。
 
 # 训练CNN单个字符识别
 
