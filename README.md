@@ -17,7 +17,7 @@
 
 # 分割车牌字符
 
-把车牌区域转换成灰度图像，利用字符间间隔主要是黑色的特征，先横向分割出单个字符，再进行纵向分割，去除单个字符上下的噪音。代码是https://github.com/airxiechao/simple-car-plate-recognition/blob/master/inference.ipynb 中的split_x和split_y。
+把车牌区域转换成灰度图像，利用边缘特征分割出区域，再筛选出字符区域。字符分割代码是https://github.com/airxiechao/simple-car-plate-recognition/blob/master/character_segmentation.ipynb 。
 
 # 执行推理
 
