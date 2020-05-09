@@ -1,6 +1,9 @@
 # simple-car-plate-recognition
 简单车牌识别-Mask_RCNN定位车牌+手写方法分割字符+CNN单个字符识别
 
+:star:[update 2020-05-09] [simple-car-plate-recognition-2](https://github.com/airxiechao/simple-car-plate-recognition-2)车牌定位后，不需要分割字符，直接使用整张车牌图片进行字符识别
+
+
 # 数据准备
 
 准备用于车牌定位的数据集，要收集250张车辆图片，200张用于训练，50张用于测试，然后在这些图片上标注出车牌区域。这里有图片https://gitee.com/easypr/EasyPR/tree/master/resources/image/general_test 。标注工具使用VGG Image Annotator (VIA)，就是一个网页程序，可以导入图片，使用多边形标注，标注好了以后，导出json。我已经标注好的数据集可以从这里下载https://github.com/airxiechao/simple-car-plate-recognition/blob/master/dataset/carplate.zip ，用7zip解压。
