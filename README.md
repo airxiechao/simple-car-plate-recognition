@@ -1,7 +1,7 @@
 # simple-car-plate-recognition
 简单车牌识别-Mask_RCNN定位车牌+手写方法分割字符+CNN单个字符识别
 
-:christmas_tree:[update 2020-11-21] 将[simple-car-plate-recognition-2](https://github.com/airxiechao/simple-car-plate-recognition-2)的字符识别整合到一起，组成完整的车牌识别过程，见 [all-in-one](https://github.com/airxiechao/simple-car-plate-recognition/blob/master/all-in-one.ipynb)
+:christmas_tree:[update 2020-11-21] 将[simple-car-plate-recognition-2](https://github.com/airxiechao/simple-car-plate-recognition-2)的字符识别整合到一起，组成完整的车牌识别过程：Mask_RCNN车牌定位+几何算法校正车牌+Inception车牌字符识别，见 [all-in-one](https://github.com/airxiechao/simple-car-plate-recognition/blob/master/all-in-one.ipynb)
 
 :star:[update 2020-05-09] [simple-car-plate-recognition-2](https://github.com/airxiechao/simple-car-plate-recognition-2) 在车牌定位后，不需要分割字符，直接使用整张车牌图片进行字符识别
 
