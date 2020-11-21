@@ -33,4 +33,4 @@
 
 # all-in-one
 
-将[simple-car-plate-recognition-2](https://github.com/airxiechao/simple-car-plate-recognition-2)的字符识别整合到一起，组成完整的车牌识别过程，见 [all-in-one](https://github.com/airxiechao/simple-car-plate-recognition/blob/master/all-in-one.ipynb)
+将[simple-car-plate-recognition-2](https://github.com/airxiechao/simple-car-plate-recognition-2)的字符识别整合到一起，组成完整的车牌识别过程，见 https://github.com/airxiechao/simple-car-plate-recognition/blob/master/all-in-one.ipynb)
